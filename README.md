@@ -15,6 +15,10 @@ Nginx Ingress Controller instructions: https://kubernetes.github.io/ingress-ngin
 1. Clone the repo
 2. Install hugo as per instructions and run the build command (`hugo server -D`) inside `quickstart` folder to test the website.
 
+### Deploying with s3
+1. Run `hugo` inside `quickstart` folder to generate the static site in the `public` folder.
+2. Host the generated files on s3 as a publicly accessible website.
+
 ### Running it with docker
 1. Write an nginx configuration that will host the site
 2. Write a dockerfile to dockerize the site hosting
