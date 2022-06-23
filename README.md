@@ -12,7 +12,8 @@ Nginx Ingress Controller instructions: https://kubernetes.github.io/ingress-ngin
 ## Instructions:
 
 ### Running it on EC2 instance locally
-1. Clone the repo
+0. Setup a new EC2 instance
+1. Clone the repo in the instance
 2. Install hugo as per instructions and run the build command (`hugo server -D --bind 0.0.0.0`) inside `quickstart` folder to test the website.
 
 ### Deploying with s3
